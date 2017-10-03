@@ -11,7 +11,9 @@ namespace DesignPatterns.Prototype
         static void Main(string[] args)
         {
             Cliente _cliente = new Cliente();
+
             _cliente.cirarDoc("DOCX");
+            _cliente.cirarDoc("PDF");
             Console.ReadKey();
         }
     }
